@@ -5,11 +5,12 @@
 .link {
   text-decoration: none;
   transition: 0.2s;
+  
+  &:hover {
+    color: #d5c5aa;
+  }
 }
 
-.link:hover {
-  color: #d5c5aa;
-}
 
 button {
   border: none;
